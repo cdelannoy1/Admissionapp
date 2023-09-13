@@ -4,7 +4,7 @@ import pandas as pd
 
 # DB Mgmt
 import sqlite3 
-conn = sqlite3.connect('data/data.sqlite')
+conn = sqlite3.connect('data.sqlite')
 c = conn.cursor()
 
 
